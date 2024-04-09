@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Filter Animation with Vanilla JS</h1>
+
+      <div class="filter">
+        <h2 class="visually-hidden">Filter by type of</h2>
+        <button class="filter-btn active" data-filter="all">all</button>
+        <button class="filter-btn" data-filter="frontend">frontend</button>
+        <button class="filter-btn" data-filter="backend">backend</button>
+        <button class="filter-btn" data-filter="fullstack">fullstack</button>
+      </div>
+      <ul class="conference-list">
+        <li class="conference" data-category="fullstack">
+          <div class="conference-details">
+            <span class="conference-date">January 30th - February 1st</span>
+            <span class="conference-category">Fullstack</span>
+          </div>
+          <h2 class="conference-name">THAT Conference Texas</h2>
+        </li>
+  
+        <li class="conference" data-category="fullstack">
+          <div class="conference-details">
+            <span class="conference-date">February 29th - March 1st</span>
+            <span class="conference-category">Fullstack</span>
+          </div>
+          <h2 class="conference-name">DEVWorld</h2>
+        </li>
+  
+        <li class="conference" data-category="backend">
+          <div class="conference-details">
+            <span class="conference-date">March 19th - March 23rd</span>
+            <span class="conference-category">Backend</span>
+          </div>
+          <h2 class="conference-name">SQLBits</h2>
+        </li>
+  
+        <li class="conference" data-category="frontend">
+          <div class="conference-details">
+            <span class="conference-date">June 6th - June 7th</span>
+            <span class="conference-category">Frontend</span>
+          </div>
+          <h2 class="conference-name">CSS Day</h2>
+        </li>
+  
+        <li class="conference" data-category="frontend">
+          <div class="conference-details">
+            <span class="conference-date">September 9th - September 11th</span>
+            <span class="conference-category">Frontend</span>
+          </div>
+          <h2 class="conference-name">SmashingConf Freiburg</h2>
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>
